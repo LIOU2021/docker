@@ -3,7 +3,7 @@ TIMEZONE=UTC
 DATA_PATH_HOST=./data
 
 ### php #################################################
-PHP_VERSION=latest
+PHP_VERSION=7.4
 PHP_HOST_PORT=8080
 
 ### golang #################################################
@@ -24,10 +24,10 @@ PHP_HOST_LOG_PATH=./logs/php/
 
 ### mysql #################################################
 MYSQL_VERSION=latest
-MYSQL_USER=root
-MYSQL_PASSWORD=root
+MYSQL_USER=default
+MYSQL_PASSWORD=default
 MYSQL_PORT=3306
-MYSQL_ROOT_PASSWORD=root
+MYSQL_ROOT_PASSWORD=default
 
 ### postgres #################################################
 POSTGRES_VERSION=latest
